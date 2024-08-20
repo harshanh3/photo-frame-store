@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- fontaw.. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="container-fluid">
+    <!-- navbar -->
+    <nav class="nav bg-gray-600 flex items-center justify-between w-full h-16 z-10">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 flex w-full">
+        <!-- Left-aligned navigation links -->
+        <div class="flex-1 flex items-center space-x-4 ml-96">
+          <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
+          <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
+          <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact Us</a>
+          <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Blog</a>
+          <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Services</a>
+        </div>
+        <!-- Right-aligned buttons -->
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-300   py-2 px-4 rounded hover:bg-gray-800">Login</a>
+          <a href="#" class="text-gray-300  py-2 px-4 rounded hover:bg-gray-800">Signup</a>
+        </div>
+      </div>
+    </nav>
+      <div class="relative flex justify-center items-center w-11/12">
+        <img class="w-8/12 h-screen" src="https://i.pinimg.com/564x/a8/fb/33/a8fb33948acff39b6793eab9f1a8ac26.jpg"
+          alt="">
+        <div class="">6796949788777yr4rg</div>
+        <img class="w-1/2 h-screen " src="https://i.pinimg.com/564x/db/4a/3d/db4a3d9ec33783f415de276cd167be1b.jpg"
+          alt="">
+        <h1 class="bg-gray-100 text-black absolute text-center text-5xl font-bold ">BEST ONLINE PHOTO FRAME <br> STORE
+        </h1>
+      </div>
+      <h2 class="mt-28 ml-36 text-3xl font-bold">Best place to buy photo frames.</h2>
+      <p class="ml-36 mt-8">Capture moments and present them in a unique way with SNAPPIX – The best online photo frame
+        store. <br>
+        Want to keep and show off your most cherished pictures?<br>
+        A wide variety of vibrant picture frames are available on SNAPPIX to fit any style and price range. You can
+        discover the ideal frame to enhance your memories<br> SNAPPIX, whether you’re looking for a classic wooden frame
+        for a family portrait or a sleek, contemporary alternative for a fashionable Instagram image.</p>
+      <button class="bg-black text-white p-2 rounded ml-36 max-h-24 mt-10 min-w-28">ABOUT US</button>
+      <hr class="border-t border-gray-800 mt-11 ml-36 mr-36">
+    </div>
+    <!-- card -->
+    <div class="bg-white">
+      <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <!-- Grid layout for cards and dividers -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-x-6 gap-y-10 items-center">
+          <!-- Card 1 -->
+          <a href="#" class="group">
+            <h2 class="text-2xl tracking-tight text-gray-900 ml-4 hover:underline">ABOUT US</h2>
+            <p class="text-lg mt-4 ">When it comes to preserving your memories in photo albums, look no further than
+              SNAPPIX to preserve your memories whether it’s a wedding album, travel journal, photo frames for wall,
+              etc.</p>
+          </a>
+          <!-- Divider -->
+          <div class="flex justify-center items-center">
+            <div style="width: 1px; height: 330px; background-color: black; margin: auto;"></div>
+          </div>
+          <!-- Card 2 -->
+          <a href="#" class="group">
+            <h2 class="text-2xl tracking-tight text-gray-900 ml-4 hover:underline">OUR SERVICES</h2>
+            <li class="mt-10 text-lg">PHOTO FRAMES</li>
+            <li class="text-lg">POLAROID</li>
+            <li class="text-lg">RESIN FRAMES</li>
+            <li class="mb-20 text-lg">PHOTOBOOKS</li>
+
+          </a>
+          <!-- Divider -->
+          <div class="flex justify-center items-center">
+            <div style="width: 1px; height: 330px; background-color: black; margin: auto;"></div>
+          </div>
+          <!-- Card 3 -->
+          <a href="#" class="group">
+            <h2 class="text-2xl tracking-tight text-gray-900 items-center ml-4 hover:underline">HIGHLIGHTS</h2>
+            <li class="mt-10 text-lg">High quality assurance</li>
+            <li class="text-lg">Affordable photo frames <span class="ml-5">and others.</span></li>
+            <li class="text-lg">Easy customization.</li>
+            <li class="mb-20 text-lg">All Kerala delivery.</li>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- review -->
+    <div class="mt-2 ">
+      <h2 class=" ml-40 text-xl font-semibold">CHECK WHAT PEOPLE SAY ABOUT SNAPPIX
+      </h2>
+      <div class="flex  mt-10 ml-36  ">
+        <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 mr-9">
+
+          <div
+            class="p-6 text-center border-2 bg-stone-300 transform transition-transform duration-300 hover:shadow-lg hover:scale-105">
+            <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              " I like this place's unique frame possibilities. My family portrait has become a piece of art thanks to
+              them. It is one of the best online photo frame store ."
+            </p>
+            <img class="w-24 ml-28 "
+              src="https://www.shutterstock.com/image-photo/portrait-suspicious-girl-stylish-hairdo-260nw-2419831495.jpg"
+              alt="">
+            <p>Liara</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96  mr-9">
+
+          <div
+            class="p-6 text-center border-2  bg-stone-300 transform transition-transform duration-300 hover:shadow-lg hover:scale-105">
+            <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              " I'm so impressed with the selection here. My photo collection has a vintage look to it because of the
+              Polaroids.I will return for more, without a doubt."
+            </p>
+            <img class="w-24 ml-28"
+              src="https://media.istockphoto.com/id/1403048629/photo/cheerful-indian-young-man-holding-laptop-standing-isolated-on-yellow.jpg?s=612x612&w=0&k=20&c=Jze28mqiYck_1pvuAGoRNpu-CO2xvZvnMDzwgRLY8P4="
+              alt="">
+            <p>John</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
+
+          <div
+            class="p-6 text-center border-2 bg-stone-300 transform transition-transform duration-200 hover:shadow-lg hover:scale-105">
+            <p class="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
+              "This shop is a treasure! The frames are lovely and of excellent quality. The photo album I purchased as a
+              gift was well-received. Highly recommended!"
+            </p>
+            <img class="w-24 ml-28"
+              src="https://st5.depositphotos.com/4678277/62051/i/450/depositphotos_620516720-stock-photo-closeup-photo-funny-charming-woman.jpg"
+              alt="">
+            <p>Helna</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-24">
+      <h2 class=" ml-40 text-xl font-semibold">Why choose us?
+      </h2>
+
+      <ol class="mt-11 ml-40 text-lg">
+        <li>1. Broad Selection: We offer frames to fit every style and preference, starting from traditional wooden
+          frames to modern and varied styles.</li>
+        <li>2. Exceptional Quality: We use high-quality materials to carefully build our frames, which will safeguard
+          your images for many years to come.</li>
+        <li>3. Reasonably priced: We provide a selection of frames to suit your budget since we think that everyone
+          should be able to exhibit their memories <br><span class="ml-5"> in a beautiful way.</span></li>
+      </ol>
+    </div>
+  </div>
+  <hr class="border-t border-gray-800 mt-11 ml-36 mr-36">
+  <h2 class="mt-12 ml-40 text-xl font-semibold">SPECIFICATIONS</h2>
+  <ul class="mt-8 ml-40 text-lg">
+    <li>1. Offers quick processing times on high-quality Polaroid prints.</li>
+    <li>2. Provide unique and imaginative frames that can give your photos a classy touch.</li>
+    <li>3. Perfect for finding simple, reasonably priced frames in an extensive variety of sizes.</li>
+    <li>4. A wide range of frames, made of aluminium, metal, wood, etc.</li>
+    <li>5. Provides an extensive selection of book sizes and styles that are ideal for special occasions like weddings,
+      vacations, etc.</li>
+    <li>6. Delivers affordable prices without sacrificing quality on Polaroid photos, picture frames, photo albums, etc.
+    </li>
+    <li>7. Specializes in creating personalized hardcover photo books that are ideal as presents or recollections.</li>
+    <li>8. Superior hardcover photo albums, polaroid, picture frames, and other items with customisable options.</li>
+  </ul>
+  <div class="mt-36">
+    <div>
+      <div class="grid grid-cols-3 gap-3">
+        <div><img class="w-96 h-3/6 hover:-translate-y-2 transform transition-transform duration-300 "
+            src="http://snappix.rf.gd/wp-content/uploads/2024/07/pexels-ron-lach-10260849-scaled.jpg" alt="">
+          <div class="mt-10 "><img class="w-96 h-96 hover:-translate-y-2 transform transition-transform duration-300"
+              src="http://snappix.rf.gd/wp-content/uploads/2024/07/StockCake-Memorable-Photo-Collection_1721392760.jpg"
+              alt=""></div>
+        </div>
+        <div><img class="w-96 h-3/5 hover:-translate-y-2 transform transition-transform duration-300"
+            src="http://snappix.rf.gd/wp-content/uploads/2024/07/StockCake-Framed-Memories-Displayed_1721392666-768x1370.jpg"
+            alt="">
+          <div class="mt-10 "><img class=" w-96 h-60 hover:-translate-y-2 transform transition-transform duration-300"
+              src="http://snappix.rf.gd/wp-content/uploads/2024/07/istockphoto-922421570-1024x1024-1.jpg" alt=""></div>
+        </div>
+        <div><img class="hover:-translate-y-2 transform transition-transform duration-300"
+            src="http://snappix.rf.gd/wp-content/uploads/2024/07/StockCake-Framed-City-Moments_1721392608.jpg" alt="">
+          <div class="mt-10 "><img class="hover:-translate-y-2 transform transition-transform duration-300"
+              src="http://snappix.rf.gd/wp-content/uploads/2024/07/pexels-george-milton-7014510-2048x1365.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="mt-10">
+      <h2 class=" text-center text-4xl font-semibold">JOURNAL
+      </h2>
+      <div>
+        <div class="flex  mt-10 justify-between  ">
+          <div class="relative flex flex-col mt-6  bg-white  rounded-xl w-60  mr-9">
+            <div class="  ">
+              <img class="w-60 h-80 opacity-100 hover:opacity-75 transition-opacity duration-300"
+                src="https://images.pexels.com/photos/1942488/pexels-photo-1942488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+              <p class="text-center mt-4 mr-2 text-2xl font-serif	hover:underline">Polaroids</p>
+              <button class="ml-16  mt-5 hover:bg-stone-400 rounded w-24 p-1">VIEW</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="relative flex flex-col mt-6  bg-white  rounded-xl w-60  mr-9">
+            <div class="  ">
+              <img class=" w-60 opacity-100 hover:opacity-75 transition-opacity duration-300"
+                src="http://snappix.rf.gd/wp-content/uploads/elementor/thumbs/StockCake-Framed-City-Moments_1721392608-qrc9st1hwdqbd4t0w9ait7ixk2qf7lb85l1okq4w1s.jpg"
+                alt="">
+              <p class="text-center mt-4 mr-2 text-2xl font-serif	hover:underline">Photo frames</p>
+              <button class="ml-16  mt-5 hover:bg-stone-400 rounded w-24 p-1">VIEW</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="relative flex flex-col mt-6  bg-white rounded-xl w-60  mr-9">
+            <div class="  ">
+              <img class=" w-60 opacity-100 hover:opacity-75 transition-opacity duration-300"
+                src="http://snappix.rf.gd/wp-content/uploads/elementor/thumbs/pexels-george-milton-7014510-scaled-qqycncgodexkxlmak9g6i3c2se2swvd23dl6uiinki.jpg"
+                alt="">
+              <p class="text-center mt-4 mr-2 text-2xl font-serif	hover:underline">Photo books</p>
+              <button class="ml-16  mt-5 hover:bg-stone-400 rounded w-24 p-1">VIEW</button>
+            </div>
+          </div>
+          <!--  -->
+          <div class="relative flex flex-col mt-6  bg-white rounded-xl w-60  mr-9">
+            <div class="  ">
+              <img class=" w-60 opacity-100 hover:opacity-75 transition-opacity duration-300"
+                src="https://thelovestore.in/wp-content/uploads/2023/09/DEC58404-4D1C-4B01-B361-430553BE33A9.jpeg"
+                alt="">
+              <p class="text-center mt-4 mr-2 text-2xl font-serif hover:underline">Ring album</p>
+              <button class="ml-16  mt-5 hover:bg-stone-400 rounded w-24 p-1">VIEW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="bg-neutral-800 text-white py-8 mt-28">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+            <!-- Footer Column 1 -->
+            <div class="w-full md:w-1/4 mb-8 md:mb-0">
+              <h5 class="text-lg font-bold mb-4">About Us</h5>
+              <p class="text-sm">
+                We are a company dedicated to providing the best service possible.
+              </p>
+            </div>
+            <!-- Footer Column 2 -->
+            <div class="w-full md:w-1/4 mb-8 md:mb-0">
+              <h5 class="text-lg font-bold mb-4">Quick Links</h5>
+              <ul>
+                <li class="mb-2"><a href="#" class="hover:underline">Home</a></li>
+                <li class="mb-2"><a href="#" class="hover:underline">About</a></li>
+                <li class="mb-2"><a href="#" class="hover:underline">Services</a></li>
+                <li class="mb-2"><a href="#" class="hover:underline">Contact</a></li>
+              </ul>
+            </div>
+            <!-- Footer Column 3 -->
+            <div class="w-full md:w-1/4 mb-8 md:mb-0">
+              <h5 class="text-lg font-bold mb-4">Contact Us</h5>
+              <p class="text-sm">
+                123 Street Name, City, State, 12345
+              </p>
+              <p class="text-sm">
+                Email: info@example.com
+              </p>
+              <p class="text-sm">
+                Phone: (123) 456-7890
+              </p>
+            </div>
+            <!-- Footer Column 4: Social Media -->
+            <div class="w-full md:w-1/4">
+              <h5 class="text-lg font-bold mb-4">Follow Us</h5>
+              <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-gray-400"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="hover:text-gray-400"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="hover:text-gray-400"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="hover:text-gray-400"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="mt-10">
+          <div class="mt-8 text-center">
+            <p class="text-sm">&copy; 2024 Your Company. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <button class="fixed bottom-5 right-5 bg-gray-300  text-white p-2 rounded-full shadow-lg hover:bg-gray-700 z-20">
+       <a class="size-9" href="#container-fluid"><i class="fa-lg p-2 pb-4 pt-4 fa-solid fa-angle-up"></i></a>
+      </button>
+    </div>
+  </div>
+</body>
+</html>
